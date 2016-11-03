@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SombraTest</title>
+
+    <link href="css/scrolling-nav.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/jquery.slider.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="all">
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/scrolling-nav.js"></script>
+    <script type="text/javascript" src="js/angular.js"></script>
+    <script type="text/javascript" src="js/home.js"></script>
+    <script src="js/jquery.slider.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/sliderConfiguration.js"></script>
+    <script type="text/javascript" src="js/carouselConfiguration.js"></script>
+    <script type="text/javascript" src="js/jquery.filterizr.js"></script>
+    <script type="text/javascript" src="js/galleryFilter.js"></script>
+</head>
+<body ng-app="SombraTest" >
+
+    <section id="home" class="homeHeader">
+        <div class="container">
+            <div class="homeIcon">
+                <img ng-src="images/headers/header.png"  alt="Icon"/>
+            </div>
+            <div class="homeTexts">
+                <h2>Fusce rutrum pretium lorem semper nulla.</h2>
+                <p>
+                    Vestibulum ornare cursus nisl, fermentum tincidunt libero pretium et. Maecenas interdum ligula non
+                    fermentum fringilla.
+                </p>
+            </div>
+            <div class="topHomeItems">
+                <div class="col-md-4 item1">
+                    <a class="page-scroll" href="#services">
+                        <span class="navIcon4"></span>
+                        <label>Services</label>
+                    </a>
+                </div>
+                <div class="col-md-4 item2">
+                    <a class="page-scroll" href="#portfolio">
+                        <span class="navIcon5"></span>
+                        <label>Portfolio</label>
+                    </a>
+                </div>
+            </div>
+            <div class="bottomHomeItems">
+                <div class="col-md-6 leftItems text-left">
+                    <div class="item3">
+                        <a class="page-scroll" href="#about">
+                            <span class="navIcon"> </span>
+                            <label>About</label>
+                        </a>
+                    </div>
+                    <div class="item4">
+                        <a class="page-scroll" href="#team">
+                            <span class="navIcon1"></span>
+                            <label>Team</label>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 rightItems text-right">
+                    <div class="item5">
+                        <a class="page-scroll" href="#blog"><span class="navIcon2"> </span><label>Blog</label></a>
+                    </div>
+                    <div class="item6">
+                        <a class="page-scroll" href="#contact"><span class="navIcon3"> </span><label>Contact</label></a>
+                    </div>
+                </div>
+            </div>
+            <div class="scrollArrow">
+                <div class="arrow">
+                    <a class="page-scroll" href="#navig"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="navig" data-spy="scroll" data-target="#nav">
+        <nav class="navbar navbar-default top-nav-collapse" id="nav" role="navigation">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">HOME</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="#home">
+                        <img src="images/navIcon.png" alt=""/>
+                    </a>
+                </div>
+
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a class="page-scroll" href="#home">Home</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#about">About</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#team">Team</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#services">Services</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#blog">Blog</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section class="inform">
+        <div class="container">
+            <div class="informSection">
+                <div class="col-md-3 informItem">
+                    <div class="img1"></div>
+                    <h3>Build with love</h3>
+                    <p>Fusce facilisis velit libero, nec
+                        dignissim lacus sagittis non. <br>
+                        Sed nec porta ante. Pellentesque <br>
+                        habitant morbi tristique senectus et.
+                    </p>
+                </div>
+                <div class="col-md-3 informItem">
+                    <div class="img2"></div>
+                    <h3>Clean and modern</h3>
+                    <p>Fusce facilisis velit libero, nec
+                        dignissim lacus sagittis non. <br>
+                        Sed nec porta ante. Pellentesque <br>
+                        habitant morbi tristique senectus et.
+                    </p>
+                </div>
+                <div class="col-md-3 informItem">
+                    <div class="img3"></div>
+                    <h3>Easy to use</h3>
+                    <p>Fusce facilisis velit libero, nec
+                        dignissim lacus sagittis non. <br>
+                        Sed nec porta ante. Pellentesque <br>
+                        habitant morbi tristique senectus et.
+                    </p>
+                </div>
+                <div class="col-md-3 informItem">
+                    <div class="img4"></div>
+                    <h3>Fully responsive</h3>
+                    <p>Fusce facilisis velit libero, nec
+                        dignissim lacus sagittis non. <br>
+                        Sed nec porta ante. Pellentesque <br>
+                        habitant morbi tristique senectus et.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="aboutInform">
+        <div class="container">
+            <div class="aboutInformHeader">
+                <img src="images/headers/aboutHeader.png">
+            </div>
+            <div class="informSection">
+                <div class="col-md-6 aboutImg">
+                    <img src="images/monitors.png">
+                </div>
+                <div class="col-md-6 aboutText">
+                    <p>Aliquam metus neque, bibendum sit amet porta at, consequat et enim. In ut turpis non ipsum
+                        rhoncus porttitor vel ac nunc. Maecenas interdum dignissim lorem quis auctor. Donec sit amet
+                        nulla nisl, aliquam pretium ipsum. Pellentesque sodales ipsum et enim rutrum adipiscing.
+                        Quisque tincidunt mattis sapien, vel posuere.
+                    </p>
+                    <div class="learnMore">
+                        <a href="#home">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="textPicture">
+            <div class="aboutPictureText">
+                <img src="images/textArea1.png">
+                <p>We lorem and ipsum your aliquam</p>
+            </div>
+        </section>
+    </section>
+
+    <section id="team" ng-controller="repeatController">
+        <div class="container">
+            <div class="teamInformPicture">
+                <img src="images/headers/teamHeader.png">
+            </div>
+            <div class="teamListSection">
+                <ul id="lightSlider" class = "teamList">
+                    <li ng-repeat="person in list">
+                        <div class="teamPicture"></div>
+                        <h3>{{person.name}}</h3>
+                        <p>{{person.major}}</p>
+                        <div class = "socialItems">
+                            <a href="http://facebook.com">
+                                <img src="images/f.png" alt="FACEBOOK">
+                            </a>
+                            <a href="http://google.com">
+                                <img src="images/g.png" alt="GOOGLE">
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="skillsInform">
+        <div class="container">
+            <div class="skillsInformImg">
+                <img src="images/headers/skillsHeader.png">
+            </div>
+            <div class="col-md-6">
+                <div class="progressBar">
+                    <h3>WEB DESIGN</h3>
+                    <p>90%</p>
+                    <div class="progressLine">
+                        <progress max="100" value="90" class="progress1"></progress>
+                    </div>
+                </div>
+                <div class="progressBar">
+                    <h3>HTML/CSS</h3>
+                    <p>75%</p>
+                    <div class="progressLine">
+                        <progress max="100" value="75" class="progress2"></progress>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="progressBar">
+                    <h3>GRAPHIC DESIGN</h3>
+                    <p>70%</p>
+                    <div class="progressLine">
+                        <progress max="100" value="70" class="progress3"></progress>
+                    </div>
+                </div>
+                <div class="progressBar">
+                    <h3>UI/UX</h3>
+                    <p>85%</p>
+                    <div class="progressLine">
+                        <progress max="100" value="85" class="progress4"></progress>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="textPicture">
+        <div class="servicePictureText">
+            <img src="images/textArea2.png" alt="">
+            <p>Our services will lorem and ipsum your aliquam</p>
+        </div>
+    </section>
+
+    <section id="blog" class="blogInform">
+        <div class="container">
+            <div class="services-grids">
+                <div class="col-md-3 blogInformSection">
+                    <h2>365</h2>
+                    <p>Lorem ipsum</p>
+                </div>
+                <div class="col-md-3 blogInformSection">
+                    <h2>98%</h2>
+                    <p>Lorem ipsum</p>
+                </div>
+                <div class="col-md-3 blogInformSection">
+                    <h2>69</h2>
+                    <p>Lorem ipsum</p>
+                </div>
+                <div class="col-md-3 blogInformSection">
+                    <h2>1,642</h2>
+                    <p>Lorem ipsum</p>
+                </div>
+            </div>
+            <div>
+                <ul id="owl-demo" class="owl-carousel" ng-controller="repeatController">
+                    <li ng-repeat="blog in blogs">
+                        <div class="item">
+                            <div class="blogImg">
+                                <img src="images/regImg.png">
+                            </div>
+                            <div class="blogText">
+                                <p>{{blog.blogText}}</p>
+                            </div>
+                            <div class="blogAuthor">
+                                <p>{{blog.author}}</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="blogPicture"></div>
+        </div>
+        </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="portfolioImg">
+                <img src="images/headers/portfolioHeader.png">
+            </div>
+            <div>
+                <ul id="filters" class="simplefilter">
+                    <li><span class="active" data-filter="all">ALL</span></li>
+                    <li><span data-filter="1">WEB</span></li>
+                    <li><span data-filter="2">APPS</span></li>
+                    <li><span data-filter="3">ICONS</span></li>
+                </ul>
+                <div>
+                    <div class="filtr-container">
+                        <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="1">
+                            <img class="img-responsive" src="images/P1.png" alt="image">
+                            <span class="item-desc">
+                                <p>Neque Porro Quisquam</p>
+                                <p>ui</p>
+                            </span>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="3">
+                            <img class="img-responsive" src="images/P2.png" alt="image">
+                            <span class="item-desc">
+                                <p>Neque Porro Quisquam</p>
+                                <p>icons</p>
+                            </span>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="1, 2" >
+                            <img class="img-responsive" src="images/P3.png" alt="image">
+                            <span class="item-desc">
+                                <p>Neque Porro Quisquam</p>
+                                <p>apps, ui</p>
+                            </span>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="2">
+                            <img class="img-responsive" src="images/P4.png" alt="image">
+                            <span class="item-desc">
+                                <p>Neque Porro Quisquam</p>
+                                <p>apps</p>
+                            </span>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="1">
+                            <img class="img-responsive" src="images/P5.png" alt="image">
+                            <span class="item-desc">
+                                <p>Neque Porro Quisquam</p>
+                                <p>ui</p>
+                            </span>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3 filtr-item" data-category="3">
+                            <img class="img-responsive" src="images/P6.png" alt="image">
+                            <span class="item-desc">
+                                <p>Neque Porro Quisquam</p>
+                                <p>icons</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="watchMore">
+                        <a href="#home">Watch more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="contactImg">
+                <img src="images/headers/contactHeader.png">
+            </div>
+            <div class="contactInform">
+                <div class="col-md-6">
+                    <form>
+                        <input type="text" placeholder = "Your Name" name = "name" id = "nameInput" maxlength="20 " required >
+                        <input type="email" placeholder = "Your Email" name = "email" id = "emailInput" maxlength="20" required >
+                        <textarea id = "aboutTextArea" placeholder="Your Message"></textarea>
+                        <div class="email">
+                            <input type="submit" value="Send email">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <div class="contactInfo">
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.
+                            Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+                        </p>
+                        <h4> 1600 Pennsylvania Ave NW, Washington,
+                            DC 20500, United States of America.
+                        </h4>
+                        <span>T: (202) 456-1111</span>
+                        <small>M: (202) 456-1212</small>
+                        <div class="socialIcons">
+                            <a href="http://facebook.com"><img src="images/f.png" alt="FACEBOOK"></a>
+                            <a href="http://google.com"><img src="images/g.png" alt="GOOGLE"></a>
+                            <a href="http://twitter.com"><img src="images/t.png" alt="TWITTER"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <img src="images/navIcon.png" alt="headerIcon">
+    </footer>
+
+</body>
+</html>
